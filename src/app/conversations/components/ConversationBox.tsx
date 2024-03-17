@@ -85,7 +85,7 @@ const ConversationBox: React.FC<ConversationBoxProps> = ({
         selected ? "bg-neutral-100" : "bg-white"
       )}
     >
-      <Avatar user={otherUser} />
+      <Avatar user={otherUser} />   
       {/* {data.isGroup ? (
         // <AvatarGroup users={data.users} />
       ) : (
